@@ -1,0 +1,35 @@
+.nav    {
+    display: flex;
+    width: 1440px;
+    height: 119px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list   {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    padding: 0 47px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 300px;
+}
+
+.logoWrapper {
+    display: flex;
+    align-self: center;
+}
+
+
+.logo, .about, .menu, .reservations, .order, .login {
+    text-decoration: none;
+    color: #000;
+}
